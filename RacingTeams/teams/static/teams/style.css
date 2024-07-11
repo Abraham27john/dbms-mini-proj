@@ -1,8 +1,8 @@
 body {
-    background-image: url('rtp.jpg');
+    background-image: url('rtp2.jpg');
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #333;
+    background-color: #fff;
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -46,8 +46,7 @@ main {
 }
 
 main section {
-    
-    background-image: url('rtp.jpg');
+    background-color: #fff;
     margin-bottom: 2rem;
     padding: 1.5rem;
     border-radius: 8px;
