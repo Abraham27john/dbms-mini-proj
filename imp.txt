@@ -1,0 +1,4 @@
+Django Superuser details:
+Username: lenovo
+Email : trial@test.com
+Password:123456

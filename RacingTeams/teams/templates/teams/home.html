@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Management</title>
+    <link rel="stylesheet" href="{% static 'teams/style.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'teams/favicon.ico' %}">
+</head>
+<body>
+    <header>
+        <h1>Red Bull Racing Team Management</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'drivers' %}">Drivers</a></li>
+            <li><a href="{% url 'races' %}">Races</a></li>
+            <li><a href="{% url 'results' %}">Results</a>
+                <li><a href="/admin/">Admin</a></li></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Welcome to the Red Bull Racing Team Management System</h2>
+            <p>Use the links above to navigate to different sections and find more about the team.</p>
+        </section>
+    </main>
+
+</body>
+</html>
